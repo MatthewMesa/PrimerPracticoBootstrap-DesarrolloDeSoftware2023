@@ -1,0 +1,75 @@
+.producto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(254, 255, 185);
+    place-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(5, 20, 155);
+}
+
+.contenedor{
+    max-width: 1500px;
+    margin: 20px auto;
+}
+.flexContainer{
+    display: flex;
+  }
+  
+  h1{
+    color: #F1C40F;
+    background-color: #1A5276;
+  }
+
+  h3{
+    color: #ffae00;
+  }
+
+  h4{
+    color: #796517;
+  }
+  button{
+    background-color:#F1C40F;
+    border-radius:20px;
+    border:black;
+    color:black;
+  }
+  body {
+    background-color: black;
+  }
+  
+  .pet-me {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin: 5px -100px 0px 500px;
+  }
+  
+  .annoying-dog {
+    width: 75px;
+    margin: 5px -100px 0px 500px;
+  }
+  
+  .annoying-dog:hover {
+    -webkit-animation-name: vibrate;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  }
+  
+  @keyframes vibrate {
+    0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+    10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+    30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+    80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+    90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+    100% { -webkit-transform: translate(1px, -2px) }
+  }
